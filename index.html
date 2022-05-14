@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac toe game</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="script.js" defer type="module"></script>
     <script src="https://kit.fontawesome.com/b4813c8fe2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -26,7 +26,8 @@
 
     <div class="modal">
         <div class="card">
-            <h2><span class="winner"></span>'s Wins the match</h2>
+            <h2 class="win"><span class="winner"></span>'s Wins the match</h2>
+            <h2 class="draw"></h2>
             <button type="button" class="restart">Restart</button>
         </div>
     </div>

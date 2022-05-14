@@ -74,6 +74,7 @@ body {
   display: none;
   transition: 0.3s ease;
   animation: fade 0.7s normal;
+  /* animation-delay: 1s; */
 }
 .card {
   display: flex;
