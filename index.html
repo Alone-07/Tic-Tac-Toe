@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac toe game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/b4813c8fe2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" data-row1="" data-column1="" data-cross1=""></div>
+        <div class="box" data-row1="" data-column2=""></div>
+        <div class="box" data-row1="" data-column3="" data-cross2=""></div>
+        <div class="box" data-row2="" data-column1=""></div>
+        <div class="box" data-row2="" data-column2="" data-cross1="" data-cross2=""></div>
+        <div class="box" data-row2="" data-column3=""></div>
+        <div class="box" data-row3="" data-column1="" data-cross2=""></div>
+        <div class="box" data-row3="" data-column2=""></div>
+        <div class="box" data-row3="" data-column3="" data-cross1=""></div>
+    </div>
+
+    <div class="modal">
+        <div class="card">
+            <h2><span class="winner"></span>'s Wins the match</h2>
+            <button type="button" class="restart">Restart</button>
+        </div>
+    </div>
+</body>
+
+</html>
