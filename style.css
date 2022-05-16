@@ -44,7 +44,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
+  flex-flow: column;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(/gettyimages-1012087204-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
   display: grid;
@@ -53,7 +57,7 @@ body {
   grid-gap: 0.3rem;
   border-radius: 10px;
   width: min(250px, 90%);
-  border: 1px solid black;
+  margin: 0 auto;
 }
 .container .box {
   /* width: 75px;
@@ -101,4 +105,15 @@ body {
   100% {
     opacity: 1;
   }
+}
+.logo {
+  margin-bottom: 4rem;
+  background-color: white;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  font-size: 64px;
+  border-bottom: 2px dashed rgb(248, 186, 15);
 }
