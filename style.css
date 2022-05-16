@@ -49,6 +49,7 @@ body {
   background-image: url(/gettyimages-1012087204-612x612.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .container {
   display: grid;
