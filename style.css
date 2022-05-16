@@ -114,6 +114,6 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   font-weight: 900;
-  font-size: 64px;
+  font-size: clamp(36px, 5vw, 64px);
   border-bottom: 2px dashed rgb(248, 186, 15);
 }
